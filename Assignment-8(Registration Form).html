@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1 style="background-color: burlywood;text-align: center;border-radius: 5px;border: 5px double;">Registration Form</h1>
+        <fieldset>
+            <legend><b>Student Details</b></legend>
+            <label for="Fname">Full Name :</label>
+            <input type="text" id="Fname"><br>
+            <label for="dept">Department :</label>
+            <input type="text" id="dept"><br>
+            <label for="rno">Roll Number:</label>
+            <input type="text" id="rno"><br>
+            <label for="clg">College Name:</label>
+            <input type="text" id="clg">       
+        </fieldset>
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob"><br>
+            <label for="Pno">Contact:</label>
+            <input type="number" id="Pno" maxlength="10"><br>
+            <label for="em">Email Address:</label>
+            <input type="email" id="em"><br>
+            <fieldset>
+                <legend><b>Address</b></legend>
+                <label for="Hno">House-No:</label>
+                <input type="text" id="Hno">
+                <label for="sno">Street:</label>
+                <input type="text" id="sno"><br>
+                <label for="c">City:</label>
+                <input type="text" id="c">
+                <label for="s">State:</label>
+                <input type="text" id="s">
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend><b>Course Registration</b></legend>
+             <i>Select courses of your choice: </i> <br>
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="py">
+            <label for="py">Python</label><br>
+            <input type="checkbox" id="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" name="Cryptography and Network Security" id="cns">
+            <label for="cns">Cryptography and Network Security</label><br>
+            <input type="checkbox" name="Machine Learning" id="ml">
+            <label for="ml">Machine Learning</label><br>
+            <i>Select Class sessions: </i><br>
+            <input type="radio" id="mr">
+            <label for="mr">10:30AM - 01:00PM</label><br>
+            <input type="radio" id="an">
+            <label for="an">01:30PM - 04:00PM</label><br>
+            <input type="radio" id="eve">
+            <label for="eve">04:00PM - 06:30PM</label>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+        </fieldset>    
+    </form>
+</body>
+</html>
